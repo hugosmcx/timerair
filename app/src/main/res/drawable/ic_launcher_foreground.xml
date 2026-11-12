@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    TimerAir – ic_launcher_foreground.xml
+    Adaptive icon foreground: snowflake + timer arc in cyan
+    Canvas: 108dp × 108dp (safe zone: 72dp centered, i.e. 18dp inset each side)
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ── Outer glow ring (subtle, semi-transparent cyan) ── -->
+    <path
+        android:fillColor="#2000D4FF"
+        android:pathData="
+            M54,18
+            A36,36 0 1,1 53.999,18
+            Z" />
+
+    <!-- ── Timer countdown arc (cyan, ~270° from top) ── -->
+    <!-- Drawn as a thick stroke ring. We simulate it with two concentric paths. -->
+
+    <!-- Arc background ring (dark) -->
+    <path
+        android:strokeColor="#1A00D4FF"
+        android:strokeWidth="3.5"
+        android:fillColor="@android:color/transparent"
+        android:pathData="
+            M54,21
+            A33,33 0 1,1 53.999,21" />
+
+    <!-- Arc foreground – 300° of the ring in cyan (gap at bottom-right) -->
+    <path
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="
+            M54,21
+            A33,33 0 1,1 20.5,70.5" />
+
+    <!-- Arc end dot (cap) -->
+    <path
+        android:fillColor="#00D4FF"
+        android:pathData="
+            M20.5,70.5
+            A2,2 0 1,1 20.499,70.5
+            Z" />
+
+    <!-- ── Snowflake center ─────────────────────────────── -->
+    <!-- Center dot -->
+    <path
+        android:fillColor="#00D4FF"
+        android:pathData="
+            M54,50
+            A4,4 0 1,1 53.999,50
+            Z" />
+
+    <!-- Vertical arm -->
+    <path
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M54,37 L54,71" />
+
+    <!-- Horizontal arm -->
+    <path
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M37,54 L71,54" />
+
+    <!-- Diagonal arm ↗↙ -->
+    <path
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M43.5,43.5 L64.5,64.5" />
+
+    <!-- Diagonal arm ↖↘ -->
+    <path
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M64.5,43.5 L43.5,64.5" />
+
+    <!-- ── Snowflake branch tips (small Y-forks) ─────────── -->
+    <!-- Top fork -->
+    <path
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M54,41 L51,38 M54,41 L57,38" />
+
+    <!-- Bottom fork -->
+    <path
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M54,67 L51,70 M54,67 L57,70" />
+
+    <!-- Left fork -->
+    <path
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M41,54 L38,51 M41,54 L38,57" />
+
+    <!-- Right fork -->
+    <path
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M67,54 L70,51 M67,54 L70,57" />
+
+    <!-- Diagonal tip top-right fork -->
+    <path
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M61,47 L64,43 M61,47 L65,48" />
+
+    <!-- Diagonal tip bottom-left fork -->
+    <path
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M47,61 L44,65 M47,61 L43,60" />
+
+    <!-- Diagonal tip top-left fork -->
+    <path
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M47,47 L44,43 M47,47 L43,48" />
+
+    <!-- Diagonal tip bottom-right fork -->
+    <path
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M61,61 L64,65 M61,61 L65,60" />
+
+</vector>

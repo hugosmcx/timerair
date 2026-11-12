@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TimerAir" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent_cyan</item>
+        <item name="colorOnPrimary">@color/bg_dark</item>
+        <item name="colorSurface">@color/bg_card</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+    </style>
+
+    <style name="Theme.TimerAir" parent="Base.Theme.TimerAir" />
+
+    <!-- Clock text style -->
+    <style name="TextAppearance.TimerAir.Clock" parent="TextAppearance.Material3.DisplayMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+    <!-- Result big number -->
+    <style name="TextAppearance.TimerAir.Result" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="android:textColor">@color/accent_cyan</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Section label -->
+    <style name="TextAppearance.TimerAir.Label" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+
+    <!-- Secondary info text -->
+    <style name="TextAppearance.TimerAir.Secondary" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+</resources>

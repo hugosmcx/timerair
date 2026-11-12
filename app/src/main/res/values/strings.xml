@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TimerAir</string>
+    <string name="label_wake_time">Horário de acordar</string>
+    <string name="label_result_hours">horas no timer</string>
+    <string name="label_ac_off_prefix">O ar-condicionado vai desligar por volta das</string>
+    <string name="label_current_time">Hora atual</string>
+    <string name="label_set_time">Definir horário</string>
+    <string name="content_desc_clock">Relógio em tempo real</string>
+    <string name="content_desc_result">Resultado em horas</string>
+</resources>

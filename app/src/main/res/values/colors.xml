@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- TimerAir palette – dark navy/blue theme -->
+    <color name="bg_dark">#0D1B2A</color>
+    <color name="bg_card">#1B2A3B</color>
+    <color name="accent_cyan">#00D4FF</color>
+    <color name="accent_cyan_dark">#0099CC</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#9BB5CC</color>
+    <color name="text_hint">#5A7A95</color>
+    <color name="result_glow">#1A00D4FF</color>
+</resources>
